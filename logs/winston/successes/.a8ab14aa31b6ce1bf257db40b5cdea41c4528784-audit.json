@@ -1,0 +1,65 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\.a8ab14aa31b6ce1bf257db40b5cdea41c4528784-audit.json",
+    "files": [
+        {
+            "date": 1685855169818,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-04-06-11-success.log",
+            "hash": "ea940ac7f5a399a0983743db091d1f20a9b586784ca2eaa2d629fbb300ef0ebf"
+        },
+        {
+            "date": 1685860377627,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-04-06-12-success.log",
+            "hash": "05fc200be109891d13d3ae13b7819b16372f5e2a0f0a1df2897a7ba8c8770f99"
+        },
+        {
+            "date": 1685862014185,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-04-06-13-success.log",
+            "hash": "98b4179a299970b327d33b4872ae8ee122012b4c7f0dc0871d2485edcf512f00"
+        },
+        {
+            "date": 1685878933317,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-04-06-17-success.log",
+            "hash": "140fab66739a5e397d2e4b7a107c8309b0f8b12852b8766a676b1f6d2b4a56d1"
+        },
+        {
+            "date": 1685897566070,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-04-06-22-success.log",
+            "hash": "d61bb321ee8d0e914b26c164af24bbade4d011f040619cc4cab1605e78fe3ade"
+        },
+        {
+            "date": 1685898001158,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-04-06-23-success.log",
+            "hash": "52a42e2513b661a3ddd7aa52c761cfbe97d79e2baded1032fd27284d1aecd788"
+        },
+        {
+            "date": 1685935589329,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-05-06-09-success.log",
+            "hash": "840c50d68797eaf333f8cf612e0e8e59a4356c0ec099575ec1b033529034b16c"
+        },
+        {
+            "date": 1685937818626,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-05-06-10-success.log",
+            "hash": "298745f732581f91ad2efef90d413a068db58e81901176893832d83d58b90abe"
+        },
+        {
+            "date": 1685941920340,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-05-06-11-success.log",
+            "hash": "728fa1ac867c056374107d2843dd50dbd555ccdf8079336170df072eeea43689"
+        },
+        {
+            "date": 1685963343994,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-05-06-17-success.log",
+            "hash": "aa5b0df51fe08193f52baf37e123a2ba94a909050af51c482ccd40b9a5e6087a"
+        },
+        {
+            "date": 1685967503730,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\successes\\universityManagement-2023-05-06-18-success.log",
+            "hash": "49affce55f9620767e7ba25a02be02d5a60eea876ff354aaea537e2e3923a052"
+        }
+    ],
+    "hashType": "sha256"
+}

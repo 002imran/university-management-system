@@ -11,10 +11,7 @@ const createUser = async (req: Request, res: Response) => {
       data: result,
     })
   } catch (err) {
-    res.status(400).json({
-      sucess: false,
-      message: 'Failed to create user',
-    })
+    next(err)
   }
 }
 
