@@ -1,9 +1,9 @@
-import { Application, NextFunction, Request, Response, request } from 'express'
+import { Application } from 'express'
 import express from 'express'
 import cors from 'cors'
-import usersService from './app/modules/users/users.service'
-import usersRouter from './app/modules/users/users.route'
+import { UserRoutes } from './app/modules/users/user.route'
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
+import ApiError from './errors/ApiError'
 
 const app: Application = express()
 
@@ -16,12 +16,12 @@ app.use(express.urlencoded({ extended: true }))
 //Application routes
 app.get('env')
 
-app.use('/api/v1/users/', usersRouter)
+app.use('/api/v1/users/', UserRoutes)
 
 //testing
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   throw new Error('Getting errorrr..!!')
-// })
+app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+  Promise.reject(new Error('Unhaled Promise Rejection'))
+})
 
 //global error handler
 app.use(globalErrorHandler)

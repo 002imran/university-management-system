@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\errors\\.0251847909932ad56c5348671ed777542374daad-audit.json",
+    "files": [
+        {
+            "date": 1686026238090,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\errors\\universityManagement-2023-06-06-10-error.log",
+            "hash": "ea14fbde047ee863c87a466a8eaf14be81a6e455d42d6be0f94a9d578a3632d6"
+        },
+        {
+            "date": 1686029326801,
+            "name": "D:\\Programming___Herooooooo\\PROGRAMING__HERO__2.0\\Typescipt_First_Milestone\\Project_Varsity_Management\\university-management-system\\logs\\winston\\errors\\universityManagement-2023-06-06-11-error.log",
+            "hash": "3c0f07d740e1cbe3ceb21d711ecf6036d6d19ad766125f4ea364f524b8801b2d"
+        }
+    ],
+    "hashType": "sha256"
+}
