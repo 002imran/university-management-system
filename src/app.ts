@@ -20,7 +20,10 @@ app.use('/api/v1/users/', UserRoutes)
 
 //testing
 app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-  Promise.reject(new Error('Unhaled Promise Rejection'))
+  // Promise.reject(new Error('Unhaled Promise Rejection'))
+  // console.log(x)
+
+  throw new Error('Testing new Error logger!')
 })
 
 //global error handler
