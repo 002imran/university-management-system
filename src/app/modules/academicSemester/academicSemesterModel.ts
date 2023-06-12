@@ -9,7 +9,7 @@ import {
   AcademicSemesterModel,
 } from './academicSemester.interface'
 
-const academicSemesterSchema = new Schema<IAcademicSemester>(
+export const AcademicSemesterSchema = new Schema<IAcademicSemester>(
   {
     title: {
       type: String,
@@ -41,7 +41,7 @@ const academicSemesterSchema = new Schema<IAcademicSemester>(
   }
 )
 
-export const academicSemester = model<IAcademicSemester, AcademicSemesterModel>(
+export const AcademicSemester = model<IAcademicSemester, AcademicSemesterModel>(
   'AcademicSemester',
-  academicSemesterSchema
+  AcademicSemesterSchema
 )
