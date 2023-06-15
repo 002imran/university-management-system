@@ -6,6 +6,7 @@ import config from '../../config'
 import ApiError from '../../errors/ApiError'
 import { errorlogger } from '../../shared/logger'
 import { Error } from 'mongoose'
+import handleCastError from '../../errors/handleCastError'
 
 const globalErrorHandler: ErrorRequestHandler = (
   error,
@@ -23,6 +24,11 @@ const globalErrorHandler: ErrorRequestHandler = (
 
   if (error?.name === 'validatoinError') {
     const simplefiedError = handleValidationError(error)
+    statusCode = simplefiedError.statusCode
+    message = simplefiedError.message
+    errorMessages = simplefiedError.errorMessages
+  } else if (error?.name === 'CastError') {
+    const simplefiedError = handleCastError(error)
     statusCode = simplefiedError.statusCode
     message = simplefiedError.message
     errorMessages = simplefiedError.errorMessages
