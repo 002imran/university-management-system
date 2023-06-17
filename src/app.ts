@@ -1,3 +1,7 @@
+import {
+  generateFacultyId,
+  generateStudentId,
+} from './app/modules/users/user.utils'
 import { Application, NextFunction, Request, Response } from 'express'
 import express from 'express'
 import cors from 'cors'
@@ -45,5 +49,11 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   })
   next()
 })
+
+const testId = async () => {
+  const testId = await generateFacultyId()
+  console.log(testId)
+}
+testId()
 
 export default app
